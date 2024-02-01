@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tcs_cfg product_id="DA1470x">
+   <version>v1.0.0.0</version>
+      <!--CS GROUPS updated according to D2798 Configuration Script content.xlsx, Sections tab-->
+      <tcs_group>
+		<!--Section Reserved. ID 0-->
+		<tcs_group_id>
+			<idx>0</idx>
+			<name>RESERVED</name>
+			<length>0</length>
+			<type>no_type</type>
+		</tcs_group_id>
+		
+		<!--Section Power Domains. IDs 1-31-->
+		<tcs_group_id>
+			<idx>1</idx>
+			<name>PD_SYS</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>2</idx>
+			<name>PD_SNC</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>3</idx>
+			<name>PD_MEM</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>4</idx>
+			<name>PD_TMR</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>5</idx>
+			<name>PD_AUDIO</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>6</idx>
+			<name>PD_RAD</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>7</idx>
+			<name>PD_SYNTH</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>8</idx>
+			<name>PD_GPU</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>9</idx>
+			<name>PD_CTRL</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<!--section System. IDs 32-63-->
+		<tcs_group_id>
+			<idx>32</idx>
+			<name>BD_ADDR</name>
+			<length>2</length>
+			<type>RawData</type>
+		</tcs_group_id>
+				
+		<!--section Analog. IDs 64-127-->
+		<tcs_group_id>
+			<idx>64</idx>
+			<name>SD_ADC_SINGLE_MODE</name>
+			<length>4</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>65</idx>
+			<name>SD_ADC_DIFF_MODE</name>
+			<length>4</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>66</idx>
+			<name>GP_ADC_SINGLE_MODE</name>
+			<length>2</length>
+			<type>RawData</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>67</idx>
+			<name>GP_ADC_DIFF_MODE</name>
+			<length>2</length>
+			<type>RawData</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>68</idx>
+			<name>TEMP_SENS_25C</name>
+			<length>1</length>
+			<type>RawData</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>69</idx>
+			<name>TEMP_SENS_RD_BG_CH_25C</name>
+                        <length>3</length>
+			<type>RawData</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>70</idx>
+			<name>BUCK_TRIM</name>
+			<length>1</length>
+			<type>RawData</type>
+		</tcs_group_id>
+
+		<tcs_group_id>
+			<idx>71</idx>
+			<name>RCHS_64MHZ</name>
+			<length>1</length>
+			<type>RawData</type>
+		</tcs_group_id>
+
+		<tcs_group_id>
+			<idx>72</idx>
+			<name>RCLP_32KHZ</name>
+			<length>1</length>
+			<type>RawData</type>
+		</tcs_group_id>
+
+                <!--section Radio. IDs 128-191-->
+		<tcs_group_id>
+			<idx>128</idx>
+			<name>PD_RAD_MODE1</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>129</idx>
+			<name>PD_SYNTH_MODE1</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>130</idx>
+			<name>PD_RAD_MODE2</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>131</idx>
+			<name>PD_SYNTH_MODE2</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>132</idx>
+			<name>PD_RAD_COEFF</name>
+			<length>0</length>
+			<type>AddressDataPair</type>
+		</tcs_group_id>
+		
+		<!--section Production Test. IDs 192-223-->
+		<tcs_group_id>
+			<idx>192</idx>
+			<name>CHIP_ID</name>
+			<length>1</length>
+			<type>RawData</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>193</idx>
+			<name>PROD_INFO</name>
+			<length>2</length>
+			<type>RawData</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>194</idx>
+			<name>PROD_WAFER</name>
+			<length>1</length>
+			<type>RawData</type>
+		</tcs_group_id>
+		
+		<tcs_group_id>
+			<idx>195</idx>
+			<name>TESTPROGRAM_VERSION</name>
+			<length>1</length>
+			<type>RawData</type>
+		</tcs_group_id>
+	
+	</tcs_group>
+	
+	<cs_commands>
+	
+		<cs_command>
+			<type>START</type>
+			<name>Start</name>
+			<description>Indicates that a valid CS is in place</description>
+			<identifier>
+				<value>A5A5A5A5</value>
+				<comparator>equals</comparator>
+			</identifier>
+			<size>1</size> <!--in words-->
+		</cs_command>
+		
+		<cs_command>
+			<type>REGS</type>
+			<name>Register Configuration</name>
+			<description>_registerName_#_registerName_ value</description>
+			<identifier> <!--Dynamic identifier, a valid register address-->
+				<value></value>
+				<comparator></comparator>
+			</identifier>
+			<size>2</size> <!--in words-->
+		</cs_command>
+		
+		<cs_command>
+			<type>TRIM_CALIB</type>  <!--SDK section cmd is described as Trim/Calib values for other devices. Use TRIM_CALIB type for backwards compatibility purposes-->
+			<name>Trim Value</name>
+			<description>_groupName_, _num_ values</description>
+			<identifier>
+				<value>E900</value>
+				<comparator>startsWith</comparator>
+			</identifier>
+			<size>0</size> <!--variable size, set to 0-->
+		</cs_command>
+		
+		<cs_command>
+			<type>BOOTER</type>
+			<name>Booter Value</name>
+			<description>Address of the product header in flash is _PHaddress_</description>
+			<identifier>
+				<value>E6000000</value>
+				<comparator>equals</comparator>
+			</identifier>
+			<size>2</size> <!--in words-->
+		</cs_command>
+		
+		<cs_command>
+			<type>DEVEL_MODE</type>
+			<name>Development Mode disable</name>
+			<description>Disable development mode</description>
+			<identifier>
+				<value>E7000000</value>
+				<comparator>equals</comparator>
+			</identifier>
+			<size>1</size> <!--in words-->
+		</cs_command>
+		
+		<cs_command>
+			<type>UART_STX</type>
+			<name>Uart STX timeout</name>
+			<description>Timeout is _stxTimeout_. Baudrate is _baudrate_</description>
+			<identifier>
+				<value>E8</value>
+				<comparator>startsWith</comparator>
+			</identifier>
+			<size>1</size> <!--in words-->
+			<baudrates default="115200">
+				<baudrate>
+					<value>1</value>
+					<bd>4800</bd>
+				</baudrate>
+				<baudrate>
+					<value>2</value>
+					<bd>9600</bd>
+				</baudrate>
+				<baudrate>
+					<value>3</value>
+					<bd>14400</bd>
+				</baudrate>
+				<baudrate>
+					<value>4</value>
+					<bd>19200</bd>
+				</baudrate>
+				<baudrate>
+					<value>5</value>
+					<bd>28800</bd>
+				</baudrate>
+				<baudrate>
+					<value>6</value>
+					<bd>38400</bd>
+				</baudrate>
+				<baudrate>
+					<value>7</value>
+					<bd>57600</bd>
+				</baudrate>
+				<baudrate>
+					<value>8</value>
+					<bd>115200</bd>
+				</baudrate>
+				<baudrate>
+					<value>9</value>
+					<bd>230400</bd>
+				</baudrate>
+				<baudrate>
+					<value>10</value>
+					<bd>500000</bd>
+				</baudrate>
+				<baudrate>
+					<value>11</value>
+					<bd>1000000</bd>
+				</baudrate>
+			</baudrates>
+		</cs_command>
+		
+		<cs_command>
+			<type>XTAL_SETTLE</type>
+			<name>Xtal Settling</name>
+			<description>. XTAL32M settling time is _xtalSettling_.</description>
+			<identifier>
+				<value>EA</value>
+				<comparator>startsWith</comparator>
+			</identifier>
+			<xtal_options>
+				<option>
+					<value>1</value>
+					<text>Ignore XTAL32M settling time and just continue</text>
+				</option>
+				<option>
+					<value>2</value>
+					<text>Use XTAL32M as the default booter clock instead of the RCHS</text>
+				</option>
+			</xtal_options>
+			<size>1</size> <!--in words-->
+		</cs_command>
+		
+		<cs_command>
+			<type>MIN_FW_VERSION</type>
+			<name>Minimunm FW version</name>
+			<description>Minimum FW version</description>
+			<identifier>
+				<value>EB000000</value>
+				<comparator>equals</comparator>
+			</identifier>
+			<size>2</size> <!--in words-->
+		</cs_command>
+		
+		<cs_command>
+			<type>STOP</type>
+			<name>Stop</name>
+			<description>Indicates that the configuration script has reached the end and execution should be terminated</description>
+			<identifier>
+				<value>00000000</value>
+				<comparator>equals</comparator>
+			</identifier>
+			<size>1</size> <!--in words-->
+		</cs_command>
+	</cs_commands>
+</tcs_cfg>

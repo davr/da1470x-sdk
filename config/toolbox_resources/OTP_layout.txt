@@ -1,0 +1,10 @@
+Address	Size	Type	RW or RO	Shortname	Description	Group	Default	Number of options
+00000000	2208	String	RW	Customer Application Area	<html>Secondary bootloader, Scratchpad, binaries, etc</html>	Customer Application Area
+000008A0	32	String	RW	Signature Keys Area - Index	<html>Signature Keys Area - Index</html>	Signature Keys Area
+000008C0	256	String	RW	Signature Keys Area - Payload	<html>Signature Keys Area - Payload</html>	Signature Keys Area
+000009C0	32	String	RW	User Data Encryption Keys - Index	<html>Eight entries for eight 256-bit keys</html>	User Data Encryption Keys - Index
+000009E0	32	String	RW	O/QSPI FW Decryption Keys Area - Index	<html>Eight entries for eight 256-bit keys</html>	O/QSPI FW Decryption Keys Area - Index
+00000A00	256	String	RW	User Data Encryption Keys - Payload	<html>Write/Read protected when secure mode enabled in CS.<br/>Secure mode connects those (8 * 256-bits) keys to AES engine</html>	User Data Encryption Keys - Payload
+00000B00	256	String	RW	O/QSPI FW Decryption Keys Area - Payload	<html>Write/Read protected when secure mode enabled in CS.<br/>Secure mode connects those (8 * 256-bits) keys to QSPI Controller</html>	O/QSPI FW Decryption Keys Area - Payload
+00000C00	1024	String_Rev	RW	Configuration Script	<html>Configuration Script</html>	Configuration Script
+<version>=1.0.0

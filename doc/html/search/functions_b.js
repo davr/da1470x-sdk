@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['nvic_5fdecodepriority_21882',['NVIC_DecodePriority',['../group___m0plus___c_m_s_i_s___core___n_v_i_c_functions.html#ga3387607fd8a1a32cccd77d2ac672dd96',1,'NVIC_DecodePriority(uint32_t Priority, uint32_t PriorityGroup, uint32_t *const pPreemptPriority, uint32_t *const pSubPriority):&#160;core_cm0plus.h'],['../group___m33___c_m_s_i_s___core___n_v_i_c_functions.html#ga3387607fd8a1a32cccd77d2ac672dd96',1,'NVIC_DecodePriority(uint32_t Priority, uint32_t PriorityGroup, uint32_t *const pPreemptPriority, uint32_t *const pSubPriority):&#160;core_cm33.h']]],
+  ['nvic_5fencodepriority_21883',['NVIC_EncodePriority',['../group___m0plus___c_m_s_i_s___core___n_v_i_c_functions.html#gadb94ac5d892b376e4f3555ae0418ebac',1,'NVIC_EncodePriority(uint32_t PriorityGroup, uint32_t PreemptPriority, uint32_t SubPriority):&#160;core_cm0plus.h'],['../group___m33___c_m_s_i_s___core___n_v_i_c_functions.html#gadb94ac5d892b376e4f3555ae0418ebac',1,'NVIC_EncodePriority(uint32_t PriorityGroup, uint32_t PreemptPriority, uint32_t SubPriority):&#160;core_cm33.h']]],
+  ['nvparam_5fparam_21884',['NVPARAM_PARAM',['../group___a_d_a_p_t_e_r___c_o_n_f_i_g_u_r_a_t_i_o_n.html#ga4ada7ff607f205e71342b56921753c98',1,'platform_nvparam.h']]]
+];

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Table 95: Radio BLE 1M - AC Characteristics  Datasheet v 1.1 -->
+<power_levels>
+	
+	<power_level>
+		<name>P_O_ULP</name>
+		<index>0</index>
+		<value>-51</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_01A2</name>
+		<index>1</index>
+		<value>-26</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_01A1</name>
+		<index>2</index>
+		<value>-22</value>
+		<unit>dBm</unit>
+	</power_level>
+
+	<power_level>
+		<name>P_O_01</name>
+		<index>3</index>
+		<value>-17.5</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_02</name>
+		<index>4</index>
+		<value>-11.5</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_03</name>
+		<index>5</index>
+		<value>-8</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_04</name>
+		<index>6</index>
+		<value>-5.5</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_05</name>
+		<index>7</index>
+		<value>-3.6</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_06</name>
+		<index>8</index>
+		<value>-2</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_07</name>
+		<index>9</index>
+		<value>-1</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_08</name>
+		<index>10</index>
+		<value>0.5</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_09</name>
+		<index>11</index>
+		<value>1.5</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_10</name>
+		<index>12</index>
+		<value>2</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_11</name>
+		<index>13</index>
+		<value>3</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_12</name>
+		<index>14</index>
+		<value>4</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_13</name>
+		<index>15</index>
+		<value>4.5</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_14</name>
+		<index>16</index>
+		<value>5</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+	<power_level>
+		<name>P_O_15</name>
+		<index>17</index>
+		<value>6</value>
+		<unit>dBm</unit>
+	</power_level>
+	
+</power_levels>
