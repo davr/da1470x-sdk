@@ -1,0 +1,17 @@
+{
+  "name": "framework-da1470x-sdk",
+  "version": "10.2.6.49",
+  "description": "SDK for Dialog DA1470x",
+  "keywords": [
+    "framework",
+    "Dialog",
+    "sdk",
+    "da1470x"
+  ],
+  "homepage": "https://www.renesas.com/us/en/products/wireless-connectivity/bluetooth-low-energy/da14706-highly-integrated-advanced-bluetooth-52-soc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davr/da1470x-sdk"
+  }
+}
+
